@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "RUBRR":
+        - /url: /
+        - img
+        - text: RUBRR
+    - listitem:
+      - link "Liste des questions":
+        - /url: /questions
+- link "✨ Plus de 712 questions":
+  - /url: /questions
+- heading "Questions pour un CDA" [level=1]
+- paragraph: 🎓 Pour vous assurer d'être prêt pour le titre, répondez à un maximum de ces questions, des conseils vous seront prodigués selon vos réponses et les réponses attendues.
+- heading "Comment gérez-vous la validation des entrées utilisateur dans cette couche ?" [level=2]
+- text: Multicouche
+- heading "Vous voulez travailler une notion particulière ?" [level=2]
+- paragraph: "Sélectionnez directement un tag ci dessous :"
+- link "Backend":
+  - /url: /?tag=Backend
+- link "Conception BDD":
+  - /url: /?tag=Conception%20BDD
+- link "Design Pattern":
+  - /url: /?tag=Design%20Pattern
+- link "DevOps":
+  - /url: /?tag=DevOps
+- link "Docker":
+  - /url: /?tag=Docker
+- link "Frontend":
+  - /url: /?tag=Frontend
+- link "Green It":
+  - /url: /?tag=Green%20It
+- link "Html":
+  - /url: /?tag=Html
+- link "Javascript":
+  - /url: /?tag=Javascript
+- link "Micro Services":
+  - /url: /?tag=Micro%20Services
+- link "Mise en place Server":
+  - /url: /?tag=Mise%20en%20place%20Server
+- link "Multicouche":
+  - /url: /?tag=Multicouche
+- link "NoSql":
+  - /url: /?tag=NoSql
+- link "POO":
+  - /url: /?tag=POO
+- link "Performance":
+  - /url: /?tag=Performance
+- link "React":
+  - /url: /?tag=React
+- link "S.O.L.I.D":
+  - /url: /?tag=S.O.L.I.D
+- link "SEO":
+  - /url: /?tag=SEO
+- link "Sql":
+  - /url: /?tag=Sql
+- link "Sécurite":
+  - /url: /?tag=S%c3%a9curite
+- link "Testing":
+  - /url: /?tag=Testing
+- link "Uml":
+  - /url: /?tag=Uml
+- textbox
+- button "Répondre"
+```

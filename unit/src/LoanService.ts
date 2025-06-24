@@ -16,7 +16,7 @@ export class LoanService {
     this.users.set(user.id, user);
   }
 
-  getBook(bookId: string): Book | undefined {
+  getBook(bookId: string): Book | undefined { 
     return this.books.get(bookId);
   }
 
